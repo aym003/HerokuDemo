@@ -1,0 +1,6 @@
+@HerokuDemo_HostAddress = http://localhost:5214
+
+GET {{HerokuDemo_HostAddress}}/ping/
+Accept: application/json
+
+###
