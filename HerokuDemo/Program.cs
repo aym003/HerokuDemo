@@ -14,7 +14,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.MapGet("/ping", () => "pong")
+app.MapGet("/ping", () => "pong2")
     .WithName("PingPong");
 
 app.Run();
