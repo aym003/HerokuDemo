@@ -1,1 +1,1 @@
-web: dotnet HerokuDemo.dll
+web: dotnet HerokuDemo.dll --urls http://*:$PORT
